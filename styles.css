@@ -1,0 +1,78 @@
+@import url(https://fonts.googleapis.com/css?family=Lato);
+@import url(https://fonts.googleapis.com/css?family=Oswald);
+@import url(https://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css);
+
+body {
+    background-color: #817c7c;
+    height: 95vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+a {
+    text-decoration: none;
+}
+
+.card {
+    font-family: 'Lato', Arial, Helvetica, sans-serif;
+    position: relative;
+    display: inline-block;
+    overflow: hidden;
+    margin: 10px;
+    width: clamp(250px, 100%, 310px);
+    background-color: #fff;
+    color: #212121;
+    text-align: center;
+    padding: 10px;
+    border-radius: 18px;
+}
+
+.card h3 {
+    font-family: "Oswald";
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 24px;
+    margin: 3px 0;
+    text-transform: uppercase;
+}
+
+.card h5 {
+    font-weight: 400;
+    margin: 0;
+    text-transform: uppercase;
+    color: #888;
+    letter-spacing: 1px;
+}
+
+img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+}
+
+figcaption {
+    padding: 5% 10% 15%;
+}
+
+.card .icons i {
+    color: #999;
+    display: inline-block;
+    margin-right: 5px;
+    font-size: 1.5em;
+}
+
+.card .icons i:hover {
+    color: #555;
+}
+footer{
+    width: 100%;
+    text-align: center;
+    font-size: 20px;
+    font-family: 'Lato', Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+}
+.card:hover{
+    transform: scaleY(0.8);
+}
